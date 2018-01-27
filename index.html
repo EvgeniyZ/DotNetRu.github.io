@@ -173,12 +173,14 @@
                       <a href="https://vk.com/DotNetRu" target="_blank" class="image"><img src="images/proj-news.jpg" alt="" /></a>
                       <h3 class="major">Новости</h3>
                       <p>Мы поддерживаем информационный портал, который будет постоянно держать вас в курсе самых важных новостей, лучших статей и авторитетных личностей из мира .NET.</p>
+                      <div id="vk_subscribe"></div>
                       <a href="https://vk.com/DotNetRu" target="_blank" class="special">Читать</a>
                     </article>
                     <article>
                       <a href="https://www.youtube.com/DotNetRu" target="_blank" class="image"><img src="images/proj-video.jpg" alt="" /></a>
                       <h3 class="major">Видео</h3>
                       <p>Мы подготавливаем, записываем и выкладываем в свободный доступ все наши доклады, покрывающие самые интересные и актуальные темы для .NET сообщества.</p>
+                      <div class="g-ytsubscribe" data-channelid="UCHFl23Ah_l4gEUTXYUStQdQ" data-layout="default" data-theme="dark" data-count="default"></div>
                       <a href="https://www.youtube.com/DotNetRu" target="_blank" class="special">Смотреть</a>
                     </article>
                     <article>
@@ -188,16 +190,16 @@
                       <a href="https://t.me/DotNetRuChat" target="_blank" class="special">Общаться</a>
                     </article>
                     <article>
-                        <a href="https://github.com/DotNetRu" target="_blank" class="image"><img src="images/proj-code.jpg" alt="" /></a>
-                        <h3 class="major">Совместная разработка</h3>
-                        <p>Мы вместе разрабатываем различные проекты на GitHub и всегда ищем тех, кто может помочь сообществу не только словом но и кодом.</p>
-                        <a href="https://github.com/DotNetRu" target="_blank" class="special">Творить</a>
+                      <a href="https://github.com/DotNetRu" target="_blank" class="image"><img src="images/proj-code.jpg" alt="" /></a>
+                      <h3 class="major">Совместная разработка</h3>
+                      <p>Мы вместе разрабатываем различные проекты на GitHub и всегда ищем тех, кто может помочь сообществу не только словом но и кодом.</p>
+                      <a href="https://github.com/DotNetRu" target="_blank" class="special">Творить</a>
                     </article>
                     <article>
-                        <a href="https://habrahabr.ru/company/it_people/blog/324352/" target="_blank" class="image"><img src="images/proj-meetups.jpg" alt="" /></a>
-                        <h3 class="major">Встречи</h3>
-                        <p>Мы проводим регулярные встречи, читаем доклады, эксперементируем с форматами, обсуждаем новости, делимся знаниями, учимся у коллег и просто хорошо проводим время в кругу единомышленников.</p>
-                        <a href="https://habrahabr.ru/company/it_people/blog/324352/" target="_blank" class="special">Узнать зачем выступать</a>
+                      <a href="https://habrahabr.ru/company/it_people/blog/324352/" target="_blank" class="image"><img src="images/proj-meetups.jpg" alt="" /></a>
+                      <h3 class="major">Встречи</h3>
+                      <p>Мы проводим регулярные встречи, читаем доклады, эксперементируем с форматами, обсуждаем новости, делимся знаниями, учимся у коллег и просто хорошо проводим время в кругу единомышленников.</p>
+                      <a href="https://habrahabr.ru/company/it_people/blog/324352/" target="_blank" class="special">Узнать зачем выступать</a>
                     </article>
                     <article>
                       <a href="https://habrahabr.ru/company/jugru/blog/334476/" target="_blank" class="image"><img src="images/proj-community.jpg" alt="" /></a>
@@ -311,6 +313,12 @@
         gtag('config', 'UA-113122190-1');
       </script>
       <!-- /Global site tag (gtag.js) - Google Analytics -->
+
+      <!-- VK integration -->
+      <script type="text/javascript" src="//vk.com/js/api/openapi.js?152"></script>
+      <script type="text/javascript">VK.Widgets.Subscribe("vk_subscribe", {soft: 1}, -144195266);</script>
+      <!-- YouTube integration -->
+      <script src="https://apis.google.com/js/platform.js"></script>
 
       <!-- ShareThis: social buttons -->
       <script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5a67a0815274820011494d81&product=sticky-share-buttons' async='async'></script>
