@@ -221,7 +221,11 @@
             <div class="inner">
               <h2 class="major">Связаться</h2>
               <p>Если ваш вопрос относится к одному конкретному городу, то адреса для связи вы найдёте на странице соответствующего сообщества. Если вы хотите затронуть глобальную задачу или просто не желаете разбираться во всех сложностях деления на города, смело пишите в DotNet.Ru. А мы дальше перешлём ваше послание нужному адресату.</p>
-              <form method="post" action="#">
+              <form method="POST" action="https://formspree.io/hi@DotNet.Ru">
+                <input type="hidden" name="_subject" value="Сайт DotNet.Ru" />
+                <input type="hidden" name="_format" value="plain" />
+                <input type="hidden" name="_language" value="ru" />
+                <input type="text" name="_gotcha" style="display:none" />
                 <div class="field">
                   <label for="name">Имя</label>
                   <input type="text" name="name" id="name" />
