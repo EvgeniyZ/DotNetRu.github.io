@@ -1,6 +1,6 @@
 # DotNetRu.github.io
 
-Официальный репозиторий сайта [DotNet.Ru](http://DotNet.Ru).
+Репозиторий сайта [DotNet.Ru](http://DotNet.Ru).
 
 ## Internet as a Service
 
